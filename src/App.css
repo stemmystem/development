@@ -1,10 +1,21 @@
 .App {
   text-align: center;
+ 
+  
+  
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#content {
+  display: flex;
+  flex-direction: row;
+}
+
+#gallery {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 70%;
+  margin: 0vw 2vw;
 }
 
 @media (prefers-reduced-motion: no-preference) {
@@ -12,27 +23,85 @@
     animation: App-logo-spin infinite 20s linear;
   }
 }
+ 
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.FilteredList {
+  display: flex;
+  flex-direction: row;
+}
+ 
+.FilterText {
+ font:  sans-serif;
+ font-size:  30px;
+}
+
+
+
+/* CSS */
+button {
+  
+  background-color: #e6e9c5;
+  border-radius: 4px;
+  border-width: 0;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 2px 4px,rgba(45, 35, 66, 0.3) 0 7px 13px -3px,#D6D6E7 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #36395A;
+  height: 50px;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #eef0dd;
+  box-shadow: rgba(45, 35, 66, 0.4) 0 4px 8px, rgba(45, 35, 66, 0.3) 0 7px 13px -3px, #D6D6E7 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.DisplayList {
+  display: grid;
+  grid-template-columns: auto auto auto ; /* added "auto" to create a 3x4 grid */
+  row-gap: 20px;
+  column-gap: 1vw;
+  /* background-color: #cfdce0; */
+  padding: 10px;
+  margin: 10px;
+}
+
+.DisplayList-item {
+  background-color: #f2f7f8;
+  width: 20vw;
+  border-radius: 25px;
+  border-left: solid 5px rgb(129, 141, 151);
+  border-right: solid 5px rgb(129, 141, 151);
+}
+
+.Left {
+   
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  flex: 1;
+  background-color: rgb(215, 219, 223);
+  border-radius: 15px;
 }
 
-.App-link {
-  color: #61dafb;
+
+ 
+
+.Right {
+ 
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  background-color: rgb(215, 219, 223);
+  color: #2e3a31;
+  border-radius: 15px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+ 
+
+img {
+  width: 100%;
+  border-radius: 15px;
+  border-top: solid 5px rgb(129, 141, 151);
+
 }
+ 

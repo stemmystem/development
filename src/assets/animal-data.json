@@ -1,0 +1,86 @@
+[
+  {
+    "name": "Beluga Whale",
+    "habitat": "Ocean",
+    "lifespan": 50,
+    "weight": 1500,
+    "image": "images/belugawhale.png"
+  },
+  {
+    "name": "Bongo",
+    "habitat": "Land",
+    "lifespan": 19,
+    "weight": 405,
+    "image": "images/bongo.png"
+  },
+  {
+    "name": "Bottlenose Dolphin",
+    "habitat": "Ocean",
+    "lifespan": 30,
+    "weight": 500,
+    "image": "images/bottlenosedolphin.png"
+  },
+  {
+    "name": "Echidna",
+    "habitat": "Land",
+    "lifespan": 55,
+    "weight": 7,
+    "image": "images/echidna.png"
+  },
+  {
+    "name": "Giraffe",
+    "habitat": "Land",
+    "lifespan": 30,
+    "weight": 1900,
+    "image": "images/giraffe.png"
+  },
+  {
+    "name": "Killer Whale",
+    "habitat": "Ocean",
+    "lifespan": 80,
+    "weight": 10000,
+    "image": "images/killerwhale.png"
+  },
+  {
+    "name": "Koala",
+    "habitat": "Land",
+    "lifespan": 18,
+    "weight": 15,
+    "image": "images/koala.png"
+  },
+  {
+    "name": "Moose",
+    "habitat": "Land",
+    "lifespan": 20,
+    "weight": 700,
+    "image": "images/moose.png"
+  },
+  {
+    "name": "Musk ox",
+    "habitat": "Land",
+    "lifespan": 24,
+    "weight": 410,
+    "image": "images/muskox.png"
+  },
+  {
+    "name": "Platypus",
+    "habitat": "Ocean",
+    "lifespan": 17,
+    "weight": 3,
+    "image": "images/platypus.png"
+  },
+  {
+    "name": "Red Kangaroo",
+    "habitat": "Land",
+    "lifespan": 20,
+    "weight": 90,
+    "image": "images/redkangaroo.png"
+  },
+  {
+    "name": "Sperm Whale",
+    "habitat": "Ocean",
+    "lifespan": 79,
+    "weight": 40000,
+    "image": "images/spermwhale.png"
+  }
+]
