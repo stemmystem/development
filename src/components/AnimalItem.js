@@ -18,7 +18,6 @@ export function AnimalItem(props){
         <p><b>Weight:</b>{props.weight}</p>
        
          
-
            <img src = {props.image}/>
            <button onClick = {handleClick} class = "button"> Add Animal Weight!</button>
            <button onClick={() => {props.removeWeight(props.name)

@@ -6,7 +6,7 @@ import Filters from "./components/filters";
 
 /* ####### DO NOT TOUCH -- this makes the image URLs work ####### */
 animalData.forEach((item) => {
-  
+  item.image = process.env.PUBLIC_URL + "/" + item.image;
 });
 /* ############################################################## */
 

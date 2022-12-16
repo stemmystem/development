@@ -18,19 +18,6 @@ export default function Filters(props) {
        
        
       }
-    
-    
-  
-    
-  
-    // const onFavoritesClick = (eventKey) => {
-    //   props.toggleDisplayFavorites(eventKey.target.checked)
-    // }
-  
-    // const calculateTotalWeight = () => {
-    //   const weight =  Object.keys(props.weight).map((key, value) => (props.favorites[key].population))
-    //   return populations.reduce((acc, item) => acc + item, 0)
-    // }
   
   
       return(
